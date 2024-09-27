@@ -162,6 +162,7 @@
   border-radius: 15px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
   margin-top: 40px; /* Margem superior para espaçamento */
+  margin-bottom: 60px; /* Adiciona margem inferior para espaçamento entre seções */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -198,4 +199,24 @@
 .skillList li:hover {
   background-color: #0a64f5; /* Cor ao passar o mouse */
   transform: translateY(-2px); /* Efeito de elevação */
+}
+
+.aboutMe {
+  padding: 2rem; /* Espaçamento interno */
+  margin-bottom: 2rem; /* Espaçamento inferior */
+  border-radius: 8px; /* Bordas arredondadas */
+}
+
+.aboutMe p {
+  font-size: 1.1rem; /* Tamanho da fonte */
+  line-height: 1.6; /* Altura da linha para melhor legibilidade */
+  margin-bottom: 1rem; /* Espaçamento entre os parágrafos */
+}
+
+.sectionTitle {
+  font-size: 1.8rem; /* Tamanho do título */
+  font-weight: bold;
+  color: #0056b3; /* Cor destacada */
+  margin-bottom: 1.5rem;
+  text-align: center; /* Centraliza o título */
 }

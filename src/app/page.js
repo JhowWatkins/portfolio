@@ -1,6 +1,5 @@
 "use client"; // Adicione isso no início do arquivo
 
-import Image from "next/image";
 import styles from "./page.module.css";
 import { useEffect } from "react";
 
@@ -19,6 +18,17 @@ export default function Home() {
         <p className={styles.description}>
           Sou desenvolvedor especializado em automações para WhatsApp e criação de websites. Confira alguns dos meus projetos abaixo.
         </p>
+
+        {/* Seção Sobre Mim */}
+        <section className={styles.aboutMe}>
+          <h2 className={styles.sectionTitle}>Sobre Mim</h2>
+          <p>
+            Sou Jonathan França, desenvolvedor focado em automação de WhatsApp e criação de websites usando Next.js e Supabase. Minha paixão por resolver problemas me levou a desenvolver soluções eficientes e personalizadas.
+          </p>
+          <p>
+            Além de codificar, gosto de aprender novas tecnologias e compartilhar conhecimento na comunidade.
+          </p>
+        </section>
 
         {/* Seção de Hard Skills */}
         <section className={styles.skills}>
